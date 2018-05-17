@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro", "DigCheckPro\DigCheckPro.csproj", "{098EA6F2-9F14-40EC-A5C4-48BD8A09B096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigCheckPro", "DigCheckPro\DigCheckPro.csproj", "{098EA6F2-9F14-40EC-A5C4-48BD8A09B096}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.iOS", "iOS\DigCheckPro.iOS.csproj", "{B28C2900-36EC-4C94-B59C-472D5666A08D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.UWP", "UWP\DigCheckPro.UWP.csproj", "{B449EA1A-81E2-409A-832E-5E1A4666B0EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.Droid", "Android\DigCheckPro.Droid.csproj", "{6BBCFDC3-4C32-4951-BAF1-5C75ED666B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.UnitTest", "DigCheckPro.UnitTest\DigCheckPro.UnitTest.csproj", "{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,9 +293,68 @@ Global
 		{6BBCFDC3-4C32-4951-BAF1-5C75ED666B71}.Release|x86.ActiveCfg = Release|Any CPU
 		{6BBCFDC3-4C32-4951-BAF1-5C75ED666B71}.Release|x86.Build.0 = Release|Any CPU
 		{6BBCFDC3-4C32-4951-BAF1-5C75ED666B71}.Release|x86.Deploy.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|Mixed Platforms.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|x64.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|x64.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|ARM.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|x64.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.AppStore|x86.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|x64.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Debug|x86.Build.0 = Debug|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|ARM.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|iPhone.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|x64.Build.0 = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9003FD7-5220-4722-98E8-BA63D23E5F4E}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Android\DigCheckPro.Droid.csproj
