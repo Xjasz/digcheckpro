@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigCheckPro", "DigCheckPro\DigCheckPro.csproj", "{098EA6F2-9F14-40EC-A5C4-48BD8A09B096}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro", "DigCheckPro\DigCheckPro.csproj", "{098EA6F2-9F14-40EC-A5C4-48BD8A09B096}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.iOS", "iOS\DigCheckPro.iOS.csproj", "{B28C2900-36EC-4C94-B59C-472D5666A08D}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.UWP", "UWP\DigC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.Droid", "Android\DigCheckPro.Droid.csproj", "{6BBCFDC3-4C32-4951-BAF1-5C75ED666B71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.UnitTest", "DigCheckPro.UnitTest\DigCheckPro.UnitTest.csproj", "{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigCheckPro.UnitTest", "UnitTest\DigCheckPro.UnitTest.csproj", "{8EDC35C0-B7D5-474C-8714-9A50ED3787C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -352,9 +352,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D9003FD7-5220-4722-98E8-BA63D23E5F4E}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Android\DigCheckPro.Droid.csproj

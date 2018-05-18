@@ -1,6 +1,6 @@
 ﻿using Xamarin.UITest;
 
-namespace UsingUITest.UITests
+namespace DigCheckPro.UnitTest
 {
     public class AppInitializer
     {
